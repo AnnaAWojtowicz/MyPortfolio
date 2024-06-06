@@ -30,7 +30,7 @@ body {
   flex-direction: column; */
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 0.5fr 5fr 0.5fr;
   min-height: 100vh;
   border-radius: 20px;
 }
@@ -40,6 +40,8 @@ body {
   grid-column-end: 6;
   grid-row-start: 2;
   grid-row-end: 3;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
 }
 
 .grid-cell-nav,
@@ -71,18 +73,6 @@ body {
   border-top: 1px solid #403d39;
   border-bottom: 1px solid #403d39;
   pointer-events: none;
-}
-
-.content {
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  padding: 1.5rem 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 /* nav */
@@ -140,9 +130,87 @@ body {
 
 /* children */
 
-.test {
+.content {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  margin: 1.5rem 0;
+  border-top: 1px solid #403d39;
+  border-bottom: 1px solid #403d39;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+  justify-items: center;
+}
+
+.contentContainerMain {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  border-top: 1px solid #403d39;
+  border-bottom: 1px solid #403d39;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+}
+
+.contentContainer {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer2 {
+}
+
+.title {
+  color: #fffcf2 !important;
+  font-family: "Advent Pro", sans-serif;
+  font-weight: 400 !important;
+  font-size: 5rem;
+}
+
+.aboutMeContainer {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  display: grid;
+  place-items: center;
+  margin: 2rem 0;
+}
+
+.aboutMe {
+  grid-column-start: 1;
+  grid-column-end: 2;
   color: #fffcf2 !important;
   font-family: "Raleway", sans-serif;
   font-weight: 400 !important;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.myImage {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #403d39;
+  margin: 2rem 0;
+  outline: 1px solid #403d39;
+  outline-offset: 3px;
+}
+
+/* .subtitle {
+  color: #fffcf2 !important;
+  font-family: "Advent Pro", sans-serif;
+  font-weight: 400 !important;
+  font-size: 3rem;
+}
+
+.skills {
+  color: #fffcf2 !important;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400 !important;
+  font-size: 1.5rem;
+} */
