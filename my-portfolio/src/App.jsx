@@ -13,7 +13,7 @@ function App() {
         <div className="background">
           <Layout>
             <Routes>
-              <Route path="/home" element={<Home />} />
+              <Route path="/" element={<Home />} />
             </Routes>
           </Layout>
         </div>
