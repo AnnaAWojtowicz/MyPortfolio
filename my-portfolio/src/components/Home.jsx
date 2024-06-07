@@ -5,8 +5,12 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import myImage from '../img/meAnna.jpg'
 import Holidaze from '../img/Holidaze1.png'
+import Ecom from '../img/Ecom1.png'
+import bCreative from '../img/bCreative1.png'
+import Scrapbook from '../img/ScrapbookFactory.png'
+import Museum from '../img/Museum.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFigma, faGithub, faChrome, faHtml5, faCss3Alt, faJs, faReact, faBootstrap } from '@fortawesome/free-brands-svg-icons';
+import { faFigma, faGithub, faChrome, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faSass, faWordpress } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -61,11 +65,183 @@ function Home() {
                     <div className='projectImgContainer'>
                         <Image src={Holidaze} className='projectImg' />
                     </div>
-
-
-
                 </div>
-                <div></div>
+                <div className='projectContainer projectContainerLayout'>
+                    <div className='projectTextContainer'>
+                        <h3 className='projectTitle'>Ecom</h3>
+                        <div className='project'>About: </div>
+                        <div className='project projectDescription'>eCom is a project to build a responsive e-commerce store, featuring a homepage with product listings and search, individual product pages with detailed information, reviews and more.</div>
+                        <div className='project'>Built with: </div>
+                        <div className='project'>
+                            <FontAwesomeIcon icon={faHtml5} className='icons' />
+                            <FontAwesomeIcon icon={faCss3Alt} className='icons' />
+                            <FontAwesomeIcon icon={faJs} className='icons' />
+                            <FontAwesomeIcon icon={faReact} className='icons' />
+                            <FontAwesomeIcon icon={faBootstrap} className='icons' />
+                        </div>
+                        <div className='project'>Find out more: </div>
+                        <div className='project'>
+                            <a href="https://ecomstorereactproject.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faChrome} className='icons' />
+                                </span>
+                            </a>
+                            <a href="https://github.com/AnnaAWojtowicz/eComStore" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faGithub} className='icons' />
+                                </span>
+                            </a>
+                            {/* <a href="" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faFigma} className='icons' />
+                                </span>
+                            </a> */}
+                        </div>
+                    </div>
+                    <div className='projectImgContainer'>
+                        <Image src={Ecom} className='projectImg' />
+                    </div>
+                </div>
+                <div className='projectContainer projectContainerLayout'>
+                    <div className='projectTextContainer'>
+                        <h3 className='projectTitle'>Wins!</h3>
+                        <div className='project'>About: </div>
+                        <div className='project projectDescription'>Wins! is an auction website where registered users can add items for auction, bid on items using credits, and earn credits through sales, with new users receiving initial credits upon registration and non-registered users able to browse listings.</div>
+                        <div className='project'>Built with: </div>
+                        <div className='project'>
+                            <FontAwesomeIcon icon={faHtml5} className='icons' />
+                            <FontAwesomeIcon icon={faCss3Alt} className='icons' />
+                            <FontAwesomeIcon icon={faSass} className='icons' />
+                            <FontAwesomeIcon icon={faJs} className='icons' />
+                            <FontAwesomeIcon icon={faBootstrap} className='icons' />
+                        </div>
+                        <div className='project'>Find out more: </div>
+                        <div className='project'>
+                            <a href="https://cosmic-gumption-c753e6.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faChrome} className='icons' />
+                                </span>
+                            </a>
+                            <a href="https://github.com/AnnaAWojtowicz/SemesterProject2" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faGithub} className='icons' />
+                                </span>
+                            </a>
+                            <a href="https://www.figma.com/proto/Vdf05YDTkFog7SMS0mvBJO/Wins!-Noroff-SemPro2?node-id=2302-2142&starting-point-node-id=2302%3A2142" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faFigma} className='icons' />
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div className='projectImgContainer'>
+                        <Image src={Holidaze} className='projectImg' />
+                    </div>
+                </div>
+                <div className='projectContainer projectContainerLayout'>
+                    <div className='projectTextContainer'>
+                        <h3 className='projectTitle'>B.Creative</h3>
+                        <div className='project'>About: </div>
+                        <div className='project projectDescription'>B.Creative project involves developing an attractive and responsive front-end for a social media platform, enabling users to view, post, edit, and delete content.</div>
+                        <div className='project'>Built with: </div>
+                        <div className='project'>
+                            <FontAwesomeIcon icon={faHtml5} className='icons' />
+                            <FontAwesomeIcon icon={faCss3Alt} className='icons' />
+                            <FontAwesomeIcon icon={faSass} className='icons' />
+                            <FontAwesomeIcon icon={faJs} className='icons' />
+                            <FontAwesomeIcon icon={faBootstrap} className='icons' />
+                        </div>
+                        <div className='project'>Find out more: </div>
+                        <div className='project'>
+                            <a href="https://courageous-chaja-80b0a8.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faChrome} className='icons' />
+                                </span>
+                            </a>
+                            <a href="https://github.com/AnnaAWojtowicz/b.creative/tree/master" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faGithub} className='icons' />
+                                </span>
+                            </a>
+                            {/* <a href="https://www.figma.com/proto/Vdf05YDTkFog7SMS0mvBJO/Wins!-Noroff-SemPro2?node-id=2302-2142&starting-point-node-id=2302%3A2142" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faFigma} className='icons' />
+                                </span>
+                            </a> */}
+                        </div>
+                    </div>
+                    <div className='projectImgContainer'>
+                        <Image src={bCreative} className='projectImg' />
+                    </div>
+                </div>
+                <div className='projectContainer projectContainerLayout'>
+                    <div className='projectTextContainer'>
+                        <h3 className='projectTitle'>The Little Scrapbook Factory</h3>
+                        <div className='project'>About: </div>
+                        <div className='project projectDescription'>The Little Scrapbook Factory is dedicated to scrapbooking and documenting my travel adventures, where I share creative ideas, tips, and personal stories from my journeys around the world.</div>
+                        <div className='project'>Built with: </div>
+                        <div className='project'>
+                            <FontAwesomeIcon icon={faHtml5} className='icons' />
+                            <FontAwesomeIcon icon={faCss3Alt} className='icons' />
+                            <FontAwesomeIcon icon={faJs} className='icons' />
+                            <FontAwesomeIcon icon={faWordpress} className='icons' />
+                        </div>
+                        <div className='project'>Find out more: </div>
+                        <div className='project'>
+                            <a href="https://extraordinary-torte-4dc4e6.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faChrome} className='icons' />
+                                </span>
+                            </a>
+                            <a href="https://github.com/AnnaAWojtowicz/exam2Noroff/tree/main" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faGithub} className='icons' />
+                                </span>
+                            </a>
+                            <a href="https://www.figma.com/proto/NF3thWkW7M8G00FjuCe1H2/the-little-scrapbook-factory?node-id=64-362&t=LJart2RW0xBYBDss-0&scaling=scale-down&page-id=2%3A4&starting-point-node-id=64%3A362&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faFigma} className='icons' />
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div className='projectImgContainer'>
+                        <Image src={Scrapbook} className='projectImg' />
+                    </div>
+                </div>
+                <div className='projectContainer projectContainerLayout'>
+                    <div className='projectTextContainer'>
+                        <h3 className='projectTitle'>Community Science Museum</h3>
+                        <div className='project'>About: </div>
+                        <div className='project projectDescription'>This project involves creating an informative, appealing, and responsive website for the Community Science Museum to attract and engage primary and middle school children and their families, encouraging them to visit the museum.</div>
+                        <div className='project'>Built with: </div>
+                        <div className='project'>
+                            <FontAwesomeIcon icon={faHtml5} className='icons' />
+                            <FontAwesomeIcon icon={faCss3Alt} className='icons' />
+                        </div>
+                        <div className='project'>Find out more: </div>
+                        <div className='project'>
+                            <a href="https://jade-selkie-1e7504.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faChrome} className='icons' />
+                                </span>
+                            </a>
+                            <a href="https://github.com/AnnaAWojtowicz/CommunityScienceMuseum" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faGithub} className='icons' />
+                                </span>
+                            </a>
+                            <a href="https://www.figma.com/proto/eJYdAgPhOge4LYNfJUecZg/Noroff-exam1?node-id=77-501&t=wjBxBOL3ROeAz6BI-0&scaling=scale-down&page-id=2%3A9&starting-point-node-id=77%3A501" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faFigma} className='icons' />
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div className='projectImgContainer'>
+                        <Image src={Museum} className='projectImg' />
+                    </div>
+                </div>
             </div>
             <div className='contentContainer2'>
                 <h2 className='subtitle'>My Skills</h2>
