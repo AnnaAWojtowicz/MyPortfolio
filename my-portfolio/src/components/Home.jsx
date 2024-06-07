@@ -245,18 +245,42 @@ function Home() {
             </div>
             <div className='contentContainer2'>
                 <h2 className='subtitle'>My Skills</h2>
-                <Container>
-                    <Row>
-                        <Col xs={6} md={4} lg={4} className='skills'>HTML</Col>
-                        <Col xs={6} md={4} lg={4} className='skills'>CSS</Col>
-                        <Col xs={6} md={4} lg={4} className='skills'>JavaScript</Col>
-                    </Row>
-                    <Row>
-                        <Col xs={6} md={4} lg={4} className='skills'>React</Col>
-                        <Col xs={6} md={4} lg={4} className='skills'>Bootstrap</Col>
-                        <Col xs={6} md={4} lg={4} className='skills'>Git</Col>
-                    </Row>
-                </Container>
+                <div className='skillsContainer'>
+                    <div className='skillsColumn1'>
+                        <div className='skills'>
+                            <div className='skill'>HTML</div>
+                            <FontAwesomeIcon icon={faHtml5} className='icons' />
+                        </div>
+                        <div className='skills'>
+                            <div className='skill'>CSS</div>
+                            <FontAwesomeIcon icon={faCss3Alt} className='icons' />
+                        </div>
+                        <div className='skills'>
+                            <div className='skill'>JavaScript</div>
+                            <FontAwesomeIcon icon={faJs} className='icons' />
+                        </div>
+                    </div>
+                    <div className='skillsColumn2'>
+                        <div className='skills'>
+                            <div className='skill'>React</div>
+                            <FontAwesomeIcon icon={faReact} className='icons' />
+                        </div>
+                        <div className='skills'>
+                            <div className='skill'>Bootstrap</div>
+                            <FontAwesomeIcon icon={faBootstrap} className='icons' />
+                        </div>
+                    </div>
+                    <div className='skillsColumn3'>
+                        <div className='skills'>
+                            <div className='skill'>Sass</div>
+                            <FontAwesomeIcon icon={faSass} className='icons' />
+                        </div>
+                        <div className='skills'>
+                            <div className='skill'>Wordpress</div>
+                            <FontAwesomeIcon icon={faWordpress} className='icons' />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
