@@ -302,12 +302,14 @@ a.icons {
   display: inline-block;
 }
 
-.icon-container {
+.icon-container,
+.word-container {
   position: relative;
   display: inline-block;
 }
 
-.icon-container::after {
+.icon-container::after,
+.word-container::after {
   content: "";
   position: absolute;
   width: 0;
@@ -323,6 +325,13 @@ a.icons {
   height: 5px;
   left: calc(50% - 2.5px);
   bottom: 5px;
+}
+
+.word-container:hover::after {
+  width: 5px;
+  height: 5px;
+  left: calc(50% - 2.5px);
+  bottom: -5px;
 }
 
 a.icons::after {
@@ -343,7 +352,8 @@ a.icons:hover::after {
 
 /* skills */
 
-.skillsContainer {
+.skillsContainer,
+.contactContainer {
   border-top: 1px solid #403d39;
   grid-column-start: 1;
   grid-column-end: 6;
@@ -351,7 +361,8 @@ a.icons:hover::after {
   grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
 }
 
-.skills {
+.skills,
+.contacts {
   color: #fffcf2 !important;
   font-family: "Raleway", sans-serif;
   font-weight: 400 !important;
@@ -363,7 +374,8 @@ a.icons:hover::after {
   padding: 0 1rem;
 }
 
-.skillsColumn1 {
+.skillsColumn1,
+.contactColumn1 {
   grid-column-start: 2;
   grid-column-end: 3;
   display: flex;
@@ -375,7 +387,8 @@ a.icons:hover::after {
   height: 100%;
 }
 
-.skillsColumn2 {
+.skillsColumn2,
+.contactColumn2 {
   grid-column-start: 3;
   grid-column-end: 4;
   display: flex;
@@ -385,7 +398,8 @@ a.icons:hover::after {
   border-right: 1px solid #403d39;
 }
 
-.skillsColumn3 {
+.skillsColumn3,
+.contactColumn3 {
   grid-column-start: 4;
   grid-column-end: 5;
   display: flex;
@@ -393,4 +407,65 @@ a.icons:hover::after {
   justify-content: center;
   align-items: center;
   border-right: 1px solid #403d39;
+}
+
+a .word {
+  color: #fffcf2;
+}
+
+/*modal*/
+
+.modal {
+  --bs-modal-bg: #252422;
+  --bs-modal-border-color: #403d39;
+  --bs-modal-border-width: 10px;
+  --bs-modal-border-radius: 0;
+  --bs-modal-header-border-color: #403d39;
+  --bs-modal-footer-border-color: #403d39;
+}
+
+.modal-outer {
+  background-color: #403d39;
+  padding: 5px;
+}
+
+.modal-inner {
+  background-color: #252422;
+  border-radius: 15px;
+  color: #fffcf2;
+}
+
+.modal-title {
+  color: #fffcf2;
+  font-family: "Advent Pro", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.modal-header .btn-close {
+  color: #fffcf2 !important;
+}
+
+.modal-body {
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.btn-secondary {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  --bs-btn-color: #fffcf2;
+  --bs-btn-bg: #403d39;
+  --bs-btn-border-color: #403d39;
+  --bs-btn-hover-color: #fffcf2;
+  --bs-btn-hover-bg: #403d39;
+  --bs-btn-hover-border-color: #403d39;
+  --bs-btn-focus-shadow-rgb: 130, 138, 145;
+  --bs-btn-active-color: #fffcf2;
+  --bs-btn-active-bg: #403d39;
+  --bs-btn-active-border-color: #403d39;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fffcf2;
 }

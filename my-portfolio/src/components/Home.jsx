@@ -1,4 +1,7 @@
 import react from 'react';
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
@@ -9,13 +12,18 @@ import Ecom from '../img/Ecom1.png'
 import bCreative from '../img/bCreative1.png'
 import Scrapbook from '../img/ScrapbookFactory.png'
 import Museum from '../img/Museum.png'
+import wins from '../img/wins.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFigma, faGithub, faChrome, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faSass, faWordpress } from '@fortawesome/free-brands-svg-icons';
-
+import { faFigma, faGithub, faChrome, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faSass, faWordpress, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 
 function Home() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
         <div className='contentContainerMain'>
             <div className='contentContainer'>
@@ -117,7 +125,7 @@ function Home() {
                         </div>
                         <div className='project'>Find out more: </div>
                         <div className='project'>
-                            <a href="https://cosmic-gumption-c753e6.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://6664050ca79dda0008e33009--spectacular-swan-aa9b30.netlify.app/" target="_blank" rel="noopener noreferrer">
                                 <span className='icon-container'>
                                     <FontAwesomeIcon icon={faChrome} className='icons' />
                                 </span>
@@ -135,7 +143,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='projectImgContainer'>
-                        <Image src={Holidaze} className='projectImg' />
+                        <Image src={wins} className='projectImg' />
                     </div>
                 </div>
                 <div className='projectContainer projectContainerLayout'>
@@ -262,6 +270,10 @@ function Home() {
                     </div>
                     <div className='skillsColumn2'>
                         <div className='skills'>
+                            <div className='skill'>Figma</div>
+                            <FontAwesomeIcon icon={faFigma} className='icons' />
+                        </div>
+                        <div className='skills'>
                             <div className='skill'>React</div>
                             <FontAwesomeIcon icon={faReact} className='icons' />
                         </div>
@@ -282,7 +294,67 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <div className='contentContainer2'>
+                <h2 className='subtitle'>Contact</h2>
+                <div className='contactContainer'>
+                    <div className='contactColumn1'>
+                        <div className='contacts'>
+                            <a href="https://www.linkedin.com/in/anna-agnieszka-wojtowicz/" target="_blank" rel="noopener noreferrer">
+                                <span className='word-container'>
+                                    <div className='word'>Linkedin</div>
+                                </span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/anna-agnieszka-wojtowicz/" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faLinkedin} className='icons' />
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div className='contactColumn2'>
+                        <div className='contacts'>
+                            <a href="https://github.com/AnnaAWojtowicz" target="_blank" rel="noopener noreferrer">
+                                <span className='word-container'>
+                                    <div className='word'>GitHub</div>
+                                </span>
+                            </a>
+                            <a href="https://github.com/AnnaAWojtowicz" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faGithub} className='icons' />
+                                </span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div className='contactColumn3'>
+                        <div className='contacts'>
+                            <span className='word-container'>
+                                <div className='word' onClick={handleShow}>E-mail</div>
+                            </span>
+                            <span className='icon-container'>
+                                <FontAwesomeIcon icon={faEnvelope} className='icons' onClick={handleShow} />
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <Modal show={show} onHide={handleClose}>
+                <div className="modal-outer">
+                    <div className="modal-inner">
+                        <Modal.Header>
+                            <Modal.Title>My e-mail address:</Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>Anna.Agnieszka.Wojtowicz@gmail.com</Modal.Body>
+                        <Modal.Footer>
+                            <Button variant="secondary" onClick={handleClose}>
+                                Close
+                            </Button>
+                        </Modal.Footer>
+                    </div>
+                </div>
+            </Modal>
         </div>
+
     );
 }
 
