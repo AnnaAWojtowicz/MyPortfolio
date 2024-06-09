@@ -33,7 +33,7 @@ function Home() {
                 <h1 className="title">Hi, I'm Anna.</h1>
                 <div className='aboutMeContainer'>
                     <div className='aboutMe'>I am a Front-End Developer.</div>
-                    <div className='aboutMe'>I am FED-student who loves to push my limits. I am always learning something new and trying to apply it in my designs and code.</div>
+                    <div className='aboutMe'>I am a FED student who loves to push my limits. I am always learning something new and striving to apply it in my designs and code.</div>
                 </div>
             </div>
             <div className='contentContainer2'>
