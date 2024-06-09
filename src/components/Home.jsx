@@ -201,11 +201,11 @@ function Home() {
                                     <FontAwesomeIcon icon={faChrome} className='icons' />
                                 </span>
                             </a>
-                            <a href="https://github.com/AnnaAWojtowicz/exam2Noroff/tree/main" target="_blank" rel="noopener noreferrer">
+                            {/* <a href="https://github.com/AnnaAWojtowicz/exam2Noroff/tree/main" target="_blank" rel="noopener noreferrer">
                                 <span className='icon-container'>
                                     <FontAwesomeIcon icon={faGithub} className='icons' />
                                 </span>
-                            </a>
+                            </a> */}
                             <a href="https://www.figma.com/proto/NF3thWkW7M8G00FjuCe1H2/the-little-scrapbook-factory?node-id=64-362&t=LJart2RW0xBYBDss-0&scaling=scale-down&page-id=2%3A4&starting-point-node-id=64%3A362&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">
                                 <span className='icon-container'>
                                     <FontAwesomeIcon icon={faFigma} className='icons' />
