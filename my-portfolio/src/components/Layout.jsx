@@ -6,7 +6,7 @@ function Layout({ children }) {
 
     return (
         <div className='site'>
-            <Header />
+            {/* <Header /> */}
             <div className='grid-cell-content-layout'><main className='content'>
                 {children}</main></div>
             <Footer />
