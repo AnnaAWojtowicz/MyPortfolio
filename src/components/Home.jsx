@@ -344,7 +344,7 @@ function Home() {
                         <Modal.Header>
                             <Modal.Title>My e-mail address:</Modal.Title>
                         </Modal.Header>
-                        <Modal.Body>Anna.Agnieszka.Wojtowicz@gmail.com</Modal.Body>
+                        <Modal.Body><a href="mailto:Anna.Agnieszka.Wojtowicz@gmail.com" id="mail-link">Anna.Agnieszka.Wojtowicz@gmail.com</a></Modal.Body>
                         <Modal.Footer>
                             <Button variant="secondary" onClick={handleClose}>
                                 Close
