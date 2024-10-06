@@ -164,6 +164,7 @@ footer *:after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .title {
@@ -171,6 +172,7 @@ footer *:after {
   font-family: "Advent Pro", sans-serif;
   font-weight: 400 !important;
   font-size: 5rem;
+  margin: 0;
 }
 
 .aboutMeContainer {
