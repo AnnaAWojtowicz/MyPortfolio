@@ -475,6 +475,31 @@ a .word {
   color: #fffcf2;
 }
 
+@media (max-width: 768px) {
+  .skillsContainer,
+  .contactContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .skillsColumn1,
+  .skillsColumn2,
+  .skillsColumn3,
+  .contactColumn1,
+  .contactColumn2,
+  .contactColumn3 {
+    grid-column: 1 / -1;
+    padding: 0 1rem;
+    border-left: none;
+    border-right: none;
+  }
+
+  .skills,
+  .contacts {
+    border-left: 1px solid #403d39;
+    border-right: 1px solid #403d39;
+  }
+}
+
 /*modal*/
 
 .modal {
