@@ -39,6 +39,7 @@ function Home() {
             <div className='contentContainer2'>
                 <h2 className='subtitle'>My Projects</h2>
                 <div className='projectContainer projectContainerLayout'>
+
                     <div className='projectTextContainer'>
                         <h3 className='projectTitle'>Holidaze</h3>
                         <div className='project'>About: </div>
@@ -70,9 +71,11 @@ function Home() {
                             </a>
                         </div>
                     </div>
+
                     <div className='projectImgContainer'>
                         <Image src={Holidaze} className='projectImg' />
                     </div>
+
                 </div>
                 <div className='projectContainer projectContainerLayout'>
                     <div className='projectTextContainer'>
