@@ -152,7 +152,9 @@ function Home() {
                     </div>
 
                     <div className='projectImgContainer'>
-                        <Image src={Holidaze} className='projectImg' />
+                        <a href="https://cosmic-gumption-c753e6.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <Image src={Holidaze} className='projectImg' />
+                        </a>
                     </div>
 
                 </div>
@@ -189,7 +191,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='projectImgContainer'>
-                        <Image src={Ecom} className='projectImg' />
+                        <a href="https://ecomstorereactproject.netlify.app/" target="_blank" rel="noopener noreferrer" ><Image src={Ecom} className='projectImg' /></a>
                     </div>
                 </div>
                 <div className='projectContainer projectContainerLayout'>
@@ -225,7 +227,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='projectImgContainer'>
-                        <Image src={wins} className='projectImg' />
+                        <a href="https://6664050ca79dda0008e33009--spectacular-swan-aa9b30.netlify.app/" target="_blank" rel="noopener noreferrer"><Image src={wins} className='projectImg' /></a>
                     </div>
                 </div>
                 <div className='projectContainer projectContainerLayout'>
@@ -261,7 +263,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='projectImgContainer'>
-                        <Image src={bCreative} className='projectImg' />
+                        <a href="https://courageous-chaja-80b0a8.netlify.app/" target="_blank" rel="noopener noreferrer">  <Image src={bCreative} className='projectImg' /></a>
                     </div>
                 </div>
                 <div className='projectContainer projectContainerLayout'>
@@ -296,7 +298,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='projectImgContainer'>
-                        <Image src={Scrapbook} className='projectImg' />
+                        <a href="https://extraordinary-torte-4dc4e6.netlify.app/" target="_blank" rel="noopener noreferrer"> <Image src={Scrapbook} className='projectImg' /></a>
                     </div>
                 </div>
                 <div className='projectContainer projectContainerLayout'>
@@ -329,7 +331,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='projectImgContainer'>
-                        <Image src={Museum} className='projectImg' />
+                        <a href="https://jade-selkie-1e7504.netlify.app/" target="_blank" rel="noopener noreferrer"> <Image src={Museum} className='projectImg' /></a>
                     </div>
                 </div>
             </div>
