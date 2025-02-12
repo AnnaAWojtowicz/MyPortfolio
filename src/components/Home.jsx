@@ -111,7 +111,8 @@ function Home() {
                         </div>
                     </div>
                     <div className='projectImgContainer'>
-                        <Image src={lukasPhotos} className='projectImg' />
+                        <a href="https://lukaslarsed.com/" target="_blank" rel="noopener noreferrer">
+                            <Image src={lukasPhotos} className='projectImg' /></a>
                     </div>
                 </div>
 
