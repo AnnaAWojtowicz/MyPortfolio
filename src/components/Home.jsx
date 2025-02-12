@@ -54,24 +54,24 @@ function Home() {
                             <FontAwesomeIcon icon={faReact} className='icons' />
                             <FontAwesomeIcon icon={faBootstrap} className='icons' />
                         </div>
-                        {/* <div className='project'>Find out more: </div>
+                        <div className='project'>Find out more: </div>
                         <div className='project'>
-                            <a href="https://cosmic-gumption-c753e6.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            {/* <a href="https://cosmic-gumption-c753e6.netlify.app/" target="_blank" rel="noopener noreferrer">
                                 <span className='icon-container'>
                                     <FontAwesomeIcon icon={faChrome} className='icons' />
                                 </span>
-                            </a>
-                            <a href="https://github.com/AnnaAWojtowicz/holidaze" target="_blank" rel="noopener noreferrer">
+                            </a> */}
+                            <a href="https://github.com/AnnaAWojtowicz/PocketArt" target="_blank" rel="noopener noreferrer">
                                 <span className='icon-container'>
                                     <FontAwesomeIcon icon={faGithub} className='icons' />
                                 </span>
                             </a>
-                            <a href="https://www.figma.com/design/bWuyWBnoJeuNEPOA7wLMOy/Holidaze?node-id=223-47703&t=xZimZNKlVHEngsUc-0" target="_blank" rel="noopener noreferrer">
+                            {/* <a href="https://www.figma.com/design/bWuyWBnoJeuNEPOA7wLMOy/Holidaze?node-id=223-47703&t=xZimZNKlVHEngsUc-0" target="_blank" rel="noopener noreferrer">
                                 <span className='icon-container'>
                                     <FontAwesomeIcon icon={faFigma} className='icons' />
                                 </span>
-                            </a>
-                        </div> */}
+                            </a> */}
+                        </div>
                     </div>
                     <div className='projectImgContainer'>
                         <Image src={pocketArt2} className='projectImg' />
@@ -80,7 +80,7 @@ function Home() {
 
                 <div className='projectContainer projectContainerLayout'>
                     <div className='projectTextContainer'>
-                        <h3 className='projectTitle'>Lukas' Photos (in progress)</h3>
+                        <h3 className='projectTitle'>Lukas' Photos</h3>
                         <div className='project'>About: </div>
                         <div className='project projectDescription'>This website showcases a stunning collection of Lukas' photographs, captured over several years across various countries around the world.</div>
                         <div className='project'>Built with: </div>
@@ -91,24 +91,24 @@ function Home() {
                             <FontAwesomeIcon icon={faReact} className='icons' />
                             <FontAwesomeIcon icon={faBootstrap} className='icons' />
                         </div>
-                        {/* <div className='project'>Find out more: </div>
+                        <div className='project'>Find out more: </div>
                         <div className='project'>
-                            <a href="https://cosmic-gumption-c753e6.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://lukaslarsed.com/" target="_blank" rel="noopener noreferrer">
                                 <span className='icon-container'>
                                     <FontAwesomeIcon icon={faChrome} className='icons' />
                                 </span>
                             </a>
-                            <a href="https://github.com/AnnaAWojtowicz/holidaze" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/AnnaAWojtowicz/LarsedPhotos" target="_blank" rel="noopener noreferrer">
                                 <span className='icon-container'>
                                     <FontAwesomeIcon icon={faGithub} className='icons' />
                                 </span>
                             </a>
-                            <a href="https://www.figma.com/design/bWuyWBnoJeuNEPOA7wLMOy/Holidaze?node-id=223-47703&t=xZimZNKlVHEngsUc-0" target="_blank" rel="noopener noreferrer">
+                            {/* <a href="https://www.figma.com/design/bWuyWBnoJeuNEPOA7wLMOy/Holidaze?node-id=223-47703&t=xZimZNKlVHEngsUc-0" target="_blank" rel="noopener noreferrer">
                                 <span className='icon-container'>
                                     <FontAwesomeIcon icon={faFigma} className='icons' />
                                 </span>
-                            </a>
-                        </div> */}
+                            </a> */}
+                        </div>
                     </div>
                     <div className='projectImgContainer'>
                         <Image src={lukasPhotos} className='projectImg' />
