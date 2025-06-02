@@ -408,6 +408,10 @@ function Home() {
                     </div>
                     <div className='skillsColumn3'>
                         <div className='skills'>
+                            <div className='skill'>Tailwind</div>
+                            <FontAwesomeIcon icon={faTailwind} className='icons' />
+                        </div>
+                        <div className='skills'>
                             <div className='skill'>Sass</div>
                             <FontAwesomeIcon icon={faSass} className='icons' />
                         </div>
