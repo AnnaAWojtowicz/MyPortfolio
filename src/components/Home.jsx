@@ -17,9 +17,9 @@ import lukasPhotos from '../img/lukasPhotos.png'
 import pocketArt2 from '../img/pocketArt2.png'
 import WeatherApp from '../img/WhatIfWeather.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFigma, faGithub, faChrome, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faSass, faWordpress, faLinkedin, faTailwind } from '@fortawesome/free-brands-svg-icons';
+import { faFigma, faGithub, faChrome, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faSass, faWordpress, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-
+import tailwindLogo from '../img/css_tailwind_logo_icon_214735.svg';
 
 
 function Home() {
@@ -46,7 +46,7 @@ function Home() {
                     <div className='projectTextContainer'>
                         <h3 className='projectTitle'>PocketArt (in progress)</h3>
                         <div className='project'>About: </div>
-                        <div className='project projectDescription'>PocketArt has been created to provide a platform for daily art learning, featuring interactive quizzes that enable users to evaluate and reinforce their knowledge.</div>
+                        <div className='project projectDescription'><i>PocketArt</i> has been created to provide a platform for daily art learning, featuring interactive quizzes that enable users to evaluate and reinforce their knowledge.</div>
                         <div className='project'>Built with: </div>
                         <div className='project'>
                             <FontAwesomeIcon icon={faHtml5} className='icons' />
@@ -83,14 +83,14 @@ function Home() {
                     <div className='projectTextContainer'>
                         <h3 className='projectTitle'>What If Weather</h3>
                         <div className='project'>About: </div>
-                        <div className='project projectDescription'>What if Weather is a clean and intuitive weather app that displays current conditions and daylight times worldwide — built with React and modern APIs.</div>
+                        <div className='project projectDescription'><i>What if Weather</i> is a clean and intuitive weather app that displays current conditions and daylight times worldwide — built with React and modern APIs.</div>
                         <div className='project'>Built with: </div>
                         <div className='project'>
                             <FontAwesomeIcon icon={faHtml5} className='icons' />
                             <FontAwesomeIcon icon={faCss3Alt} className='icons' />
                             <FontAwesomeIcon icon={faJs} className='icons' />
                             <FontAwesomeIcon icon={faReact} className='icons' />
-                            <FontAwesomeIcon icon={faTailwind} className='icons' />
+                            <img src={tailwindLogo} className='icons' alt="Tailwind CSS logo" id="tailwind_logo" />
                         </div>
                         <div className='project'>Find out more: </div>
                         <div className='project'>
@@ -162,7 +162,7 @@ function Home() {
                     <div className='projectTextContainer'>
                         <h3 className='projectTitle'>Holidaze</h3>
                         <div className='project'>About: </div>
-                        <div className='project projectDescription'>Holidaze is an accommodation booking site that allows users to book holidays at various venues and provides an admin interface for managing venue registrations and bookings.</div>
+                        <div className='project projectDescription'><i>Holidaze</i> is an accommodation booking site that allows users to book holidays at various venues and provides an admin interface for managing venue registrations and bookings.</div>
                         <div className='project'>Built with: </div>
                         <div className='project'>
                             <FontAwesomeIcon icon={faHtml5} className='icons' />
@@ -202,7 +202,7 @@ function Home() {
                     <div className='projectTextContainer'>
                         <h3 className='projectTitle'>Ecom</h3>
                         <div className='project'>About: </div>
-                        <div className='project projectDescription'>eCom is a project to build a responsive e-commerce store, featuring a homepage with product listings and search, individual product pages with detailed information, reviews and more.</div>
+                        <div className='project projectDescription'><i>eCom</i> is a project to build a responsive e-commerce store, featuring a homepage with product listings and search, individual product pages with detailed information, reviews and more.</div>
                         <div className='project'>Built with: </div>
                         <div className='project'>
                             <FontAwesomeIcon icon={faHtml5} className='icons' />
@@ -238,7 +238,7 @@ function Home() {
                     <div className='projectTextContainer'>
                         <h3 className='projectTitle'>Wins!</h3>
                         <div className='project'>About: </div>
-                        <div className='project projectDescription'>Wins! is an auction website where registered users can add items for auction, bid on items using credits, and earn credits through sales, with new users receiving initial credits upon registration and non-registered users able to browse listings.</div>
+                        <div className='project projectDescription'><i>Wins!</i> is an auction website where registered users can add items for auction, bid on items using credits, and earn credits through sales, with new users receiving initial credits upon registration and non-registered users able to browse listings.</div>
                         <div className='project'>Built with: </div>
                         <div className='project'>
                             <FontAwesomeIcon icon={faHtml5} className='icons' />
@@ -274,7 +274,7 @@ function Home() {
                     <div className='projectTextContainer'>
                         <h3 className='projectTitle'>B.Creative</h3>
                         <div className='project'>About: </div>
-                        <div className='project projectDescription'>B.Creative project involves developing an attractive and responsive front-end for a social media platform, enabling users to view, post, edit, and delete content.</div>
+                        <div className='project projectDescription'><i>B.Creative</i> project involves developing an attractive and responsive front-end for a social media platform, enabling users to view, post, edit, and delete content.</div>
                         <div className='project'>Built with: </div>
                         <div className='project'>
                             <FontAwesomeIcon icon={faHtml5} className='icons' />
@@ -310,7 +310,7 @@ function Home() {
                     <div className='projectTextContainer'>
                         <h3 className='projectTitle'>The Little Scrapbook Factory</h3>
                         <div className='project'>About: </div>
-                        <div className='project projectDescription'>The Little Scrapbook Factory is dedicated to scrapbooking and documenting my travel adventures, where I share creative ideas, tips, and personal stories from my journeys around the world.</div>
+                        <div className='project projectDescription'><i>The Little Scrapbook Factory</i> is dedicated to scrapbooking and documenting my travel adventures, where I share creative ideas, tips, and personal stories from my journeys around the world.</div>
                         <div className='project'>Built with: </div>
                         <div className='project'>
                             <FontAwesomeIcon icon={faHtml5} className='icons' />
@@ -409,7 +409,7 @@ function Home() {
                     <div className='skillsColumn3'>
                         <div className='skills'>
                             <div className='skill'>Tailwind</div>
-                            <FontAwesomeIcon icon={faTailwind} className='icons' />
+                            <img src={tailwindLogo} className='icons' alt="Tailwind CSS logo" id="tailwind_logo" />
                         </div>
                         <div className='skills'>
                             <div className='skill'>Sass</div>
