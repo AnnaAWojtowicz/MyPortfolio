@@ -15,8 +15,9 @@ import Museum from '../img/Museum.png'
 import wins from '../img/wins.png'
 import lukasPhotos from '../img/lukasPhotos.png'
 import pocketArt2 from '../img/pocketArt2.png'
+import WeatherApp from '../img/WhatIfWeather.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFigma, faGithub, faChrome, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faSass, faWordpress, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFigma, faGithub, faChrome, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faSass, faWordpress, faLinkedin, faTailwind } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -75,6 +76,44 @@ function Home() {
                     </div>
                     <div className='projectImgContainer'>
                         <Image src={pocketArt2} className='projectImg' />
+                    </div>
+                </div>
+
+                <div className='projectContainer projectContainerLayout'>
+                    <div className='projectTextContainer'>
+                        <h3 className='projectTitle'>What If Weather</h3>
+                        <div className='project'>About: </div>
+                        <div className='project projectDescription'>What if Weather is a clean and intuitive weather app that displays current conditions and daylight times worldwide — built with React and modern APIs.</div>
+                        <div className='project'>Built with: </div>
+                        <div className='project'>
+                            <FontAwesomeIcon icon={faHtml5} className='icons' />
+                            <FontAwesomeIcon icon={faCss3Alt} className='icons' />
+                            <FontAwesomeIcon icon={faJs} className='icons' />
+                            <FontAwesomeIcon icon={faReact} className='icons' />
+                            <FontAwesomeIcon icon={faTailwind} className='icons' />
+                        </div>
+                        <div className='project'>Find out more: </div>
+                        <div className='project'>
+                            <a href="https://whatifweather.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faChrome} className='icons' />
+                                </span>
+                            </a>
+                            <a href="https://github.com/AnnaAWojtowicz/weatherApp" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faGithub} className='icons' />
+                                </span>
+                            </a>
+                            {/* <a href="https://www.figma.com/design/bWuyWBnoJeuNEPOA7wLMOy/Holidaze?node-id=223-47703&t=xZimZNKlVHEngsUc-0" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faFigma} className='icons' />
+                                </span>
+                            </a> */}
+                        </div>
+                    </div>
+                    <div className='projectImgContainer'>
+                        <a href="https://whatifweather.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <Image src={WeatherApp} className='projectImg' /></a>
                     </div>
                 </div>
 
