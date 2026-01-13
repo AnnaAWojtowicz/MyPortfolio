@@ -422,7 +422,7 @@ a.icons:hover::after {
   grid-column-end: 3;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   border-right: 1px solid #403d39;
   border-left: 1px solid #403d39;
@@ -435,7 +435,7 @@ a.icons:hover::after {
   grid-column-end: 4;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   border-right: 1px solid #403d39;
 }
@@ -446,7 +446,7 @@ a.icons:hover::after {
   grid-column-end: 5;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   border-right: 1px solid #403d39;
 }

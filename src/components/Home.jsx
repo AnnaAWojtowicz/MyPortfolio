@@ -17,7 +17,7 @@ import lukasPhotos from '../img/lukasPhotos.png'
 import pocketArt2 from '../img/pocketArt2.png'
 import WeatherApp from '../img/WhatIfWeather.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFigma, faGithub, faChrome, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faSass, faWordpress, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFigma, faGithub, faChrome, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faSass, faWordpress, faLinkedin, faPython } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import tailwindLogo from '../img/css_tailwind_logo_icon_214735.svg';
 
@@ -183,11 +183,11 @@ function Home() {
                                     <FontAwesomeIcon icon={faGithub} className='icons' />
                                 </span>
                             </a>
-                            <a href="https://www.figma.com/design/bWuyWBnoJeuNEPOA7wLMOy/Holidaze?node-id=223-47703&t=xZimZNKlVHEngsUc-0" target="_blank" rel="noopener noreferrer">
+                            {/* <a href="https://www.figma.com/design/bWuyWBnoJeuNEPOA7wLMOy/Holidaze?node-id=223-47703&t=xZimZNKlVHEngsUc-0" target="_blank" rel="noopener noreferrer">
                                 <span className='icon-container'>
                                     <FontAwesomeIcon icon={faFigma} className='icons' />
                                 </span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
 
@@ -259,11 +259,11 @@ function Home() {
                                     <FontAwesomeIcon icon={faGithub} className='icons' />
                                 </span>
                             </a>
-                            <a href="https://www.figma.com/proto/Vdf05YDTkFog7SMS0mvBJO/Wins!-Noroff-SemPro2?node-id=2302-2142&starting-point-node-id=2302%3A2142" target="_blank" rel="noopener noreferrer">
+                            {/* <a href="https://www.figma.com/proto/Vdf05YDTkFog7SMS0mvBJO/Wins!-Noroff-SemPro2?node-id=2302-2142&starting-point-node-id=2302%3A2142" target="_blank" rel="noopener noreferrer">
                                 <span className='icon-container'>
                                     <FontAwesomeIcon icon={faFigma} className='icons' />
                                 </span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                     <div className='projectImgContainer'>
@@ -330,11 +330,11 @@ function Home() {
                                     <FontAwesomeIcon icon={faGithub} className='icons' />
                                 </span>
                             </a> */}
-                            <a href="https://www.figma.com/proto/NF3thWkW7M8G00FjuCe1H2/the-little-scrapbook-factory?node-id=64-362&t=LJart2RW0xBYBDss-0&scaling=scale-down&page-id=2%3A4&starting-point-node-id=64%3A362&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">
+                            {/* <a href="https://www.figma.com/proto/NF3thWkW7M8G00FjuCe1H2/the-little-scrapbook-factory?node-id=64-362&t=LJart2RW0xBYBDss-0&scaling=scale-down&page-id=2%3A4&starting-point-node-id=64%3A362&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">
                                 <span className='icon-container'>
                                     <FontAwesomeIcon icon={faFigma} className='icons' />
                                 </span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                     <div className='projectImgContainer'>
@@ -363,11 +363,11 @@ function Home() {
                                     <FontAwesomeIcon icon={faGithub} className='icons' />
                                 </span>
                             </a>
-                            <a href="https://www.figma.com/proto/eJYdAgPhOge4LYNfJUecZg/Noroff-exam1?node-id=77-501&t=wjBxBOL3ROeAz6BI-0&scaling=scale-down&page-id=2%3A9&starting-point-node-id=77%3A501" target="_blank" rel="noopener noreferrer">
+                            {/* <a href="https://www.figma.com/proto/eJYdAgPhOge4LYNfJUecZg/Noroff-exam1?node-id=77-501&t=wjBxBOL3ROeAz6BI-0&scaling=scale-down&page-id=2%3A9&starting-point-node-id=77%3A501" target="_blank" rel="noopener noreferrer">
                                 <span className='icon-container'>
                                     <FontAwesomeIcon icon={faFigma} className='icons' />
                                 </span>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                     <div className='projectImgContainer'>
@@ -390,6 +390,10 @@ function Home() {
                         <div className='skills'>
                             <div className='skill'>JavaScript</div>
                             <FontAwesomeIcon icon={faJs} className='icons' />
+                        </div>
+                        <div className='skills'>
+                            <div className='skill'>Python</div>
+                            <FontAwesomeIcon icon={faPython} className='icons' />
                         </div>
                     </div>
                     <div className='skillsColumn2'>
