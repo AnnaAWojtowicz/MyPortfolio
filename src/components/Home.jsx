@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import myImage from '../img/meAnna.jpg'
+import myImage2 from '../img/me2.jpg'
 import Holidaze from '../img/Holidaze1.png'
 import Ecom from '../img/Ecom1.png'
 import bCreative from '../img/bCreative1.png'
@@ -16,6 +17,7 @@ import wins from '../img/wins.png'
 import lukasPhotos from '../img/lukasPhotos.png'
 import pocketArt2 from '../img/pocketArt2.png'
 import WeatherApp from '../img/WhatIfWeather.png'
+import Tarerev from '../img/tarerev.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFigma, faGithub, faChrome, faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faSass, faWordpress, faLinkedin, faPython } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -31,12 +33,12 @@ function Home() {
         <div className='contentContainerMain'>
             <div className='contentContainer'>
                 <Col xs={6} md={4} lg={4} className="imgContainer">
-                    <Image src={myImage} roundedCircle className='myImage' />
+                    <Image src={myImage2} roundedCircle className='myImage' />
                 </Col>
                 <h1 className="title">Hi, I'm Anna.</h1>
                 <div className='aboutMeContainer'>
                     <div className='aboutMe'>I am a Front-End Developer.</div>
-                    <div className='aboutMe'>I am a newly graduated Front-End Developer who loves to push my limits. I am always learning something new and striving to apply it in my designs and code.</div>
+                    <div className='aboutMe'>I am a graduated Front-End Developer who loves to push my limits. I am always learning something new and striving to apply it in my designs and code.</div>
                 </div>
             </div>
             <div className='contentContainer2'>
@@ -78,6 +80,37 @@ function Home() {
                         <Image src={pocketArt2} className='projectImg' />
                     </div>
                 </div>
+
+                <div className='projectContainer projectContainerLayout'>
+                    <div className='projectTextContainer'>
+                        <h3 className='projectTitle'>Tarerev</h3>
+                        <div className='project'>About: </div>
+                        <div className='project projectDescription'><i>Tarerev</i> is a website created for the Kelp Forest Project in Finnmark, Norway, designed to showcase the importance of marine ecosystems and promote awareness of kelp forest restoration efforts.</div>
+                        <div className='project'>Built with: </div>
+                        <div className='project'>
+                            <FontAwesomeIcon icon={faHtml5} className='icons' />
+                            <FontAwesomeIcon icon={faCss3Alt} className='icons' />
+                            <FontAwesomeIcon icon={faJs} className='icons' />
+                            <FontAwesomeIcon icon={faReact} className='icons' />
+                            <img src={tailwindLogo} className='icons' alt="Tailwind CSS logo" id="tailwind_logo" />
+                            <FontAwesomeIcon icon={faWordpress} className='icons' />
+                        </div>
+                        <div className='project'>Find out more: </div>
+                        <div className='project'>
+                            <a href="https://www.gsg-as.no/tarepark/" target="_blank" rel="noopener noreferrer">
+                                <span className='icon-container'>
+                                    <FontAwesomeIcon icon={faChrome} className='icons' />
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div className='projectImgContainer'>
+                        <a href="https://www.gsg-as.no/tarepark/" target="_blank" rel="noopener noreferrer">
+                            <Image src={Tarerev} className='projectImg' /></a>
+                    </div>
+                </div>
+
+
 
                 <div className='projectContainer projectContainerLayout'>
                     <div className='projectTextContainer'>
